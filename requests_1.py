@@ -11,4 +11,4 @@ print(page_text)
 # step_4:持久化存储
 with open('./uestc.html', 'w', encoding='utf-8') as fp:
     fp.write(page_text)
-print("爬取数据结束")
+print("爬取数据结束。")
