@@ -18,7 +18,7 @@ param = {
     "query": kw
 }
 # 对指定url发起的请求对应的url是携带参数的，并且请求过程中处理了参数
-response = requests.get(url=url, params=param,headers=headers)
+response = requests.get(url=url, params=param, headers=headers)
 page_text = response.text
 filename = kw + '.html'
 with open(filename, 'w', encoding='utf-8') as fp:
