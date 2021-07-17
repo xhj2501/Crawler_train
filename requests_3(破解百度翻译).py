@@ -28,7 +28,7 @@ print(dic_obj)
 
 # 进行持久化存储：存储为json文件
 filename=word+'.json'
-fp = open(filename, 'w', encoding='utf-8')
-json.dump(dic_obj, fp=fp, ensure_ascii=False)  # 中文不能使用asc码
+with open(filename,"w",encoding="utf-8") as fp:
+    json.dump(dic_obj, fp=fp, ensure_ascii=False) # 中文不能使用asc码
 
 print("over")
