@@ -1,0 +1,89 @@
+{
+  "Table": [
+    {
+      "rowcount": 35
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 1,
+      "storeName": "成都机场",
+      "addressDetail": "双流国际机场侯机楼A指廊内A-YC-2",
+      "pro": "店内参观,机场店,礼品卡",
+      "provinceName": "四川省",
+      "cityName": "成都市"
+    },
+    {
+      "rownum": 2,
+      "storeName": "锦华",
+      "addressDetail": "锦华路一段68号成都锦华万达广场3号门旁",
+      "pro": "24小时,Wi-Fi,点唱机,礼品卡,生日餐会",
+      "provinceName": "四川省",
+      "cityName": "成都市"
+    },
+    {
+      "rownum": 3,
+      "storeName": "成都机场T2",
+      "addressDetail": "成都双流国际机场T2航站楼安检内FG指廊，170号登机口对面",
+      "pro": "机场店,礼品卡",
+      "provinceName": "四川省",
+      "cityName": "成都市"
+    },
+    {
+      "rownum": 4,
+      "storeName": "成都SM餐厅",
+      "addressDetail": "二环路东二段29号SM城市广场139#，228-231#231A#",
+      "pro": "Wi-Fi,点唱机,礼品卡",
+      "provinceName": "四川省",
+      "cityName": "成都市"
+    },
+    {
+      "rownum": 5,
+      "storeName": "成都佛罗伦萨",
+      "addressDetail": "郫县银杏路888号2层E21单元",
+      "pro": "Wi-Fi,点唱机",
+      "provinceName": "四川省",
+      "cityName": "成都市"
+    },
+    {
+      "rownum": 6,
+      "storeName": "成都机场T2到达精选",
+      "addressDetail": "双流县成都双流国际机场T2候机楼到达层",
+      "pro": "精选店",
+      "provinceName": "四川省",
+      "cityName": "成都市"
+    },
+    {
+      "rownum": 7,
+      "storeName": "成都T2出发",
+      "addressDetail": "双流县四川成都双流国际机场T2航站楼3楼出发层夹层UM-F-2A号",
+      "pro": "机场店",
+      "provinceName": "四川省",
+      "cityName": "成都市"
+    },
+    {
+      "rownum": 8,
+      "storeName": "恒大广场",
+      "addressDetail": "提督路99号成都恒大广场1层",
+      "pro": "Wi-Fi,点唱机",
+      "provinceName": "四川省",
+      "cityName": "成都市"
+    },
+    {
+      "rownum": 9,
+      "storeName": "红星美学中心",
+      "addressDetail": "市辖区成都天府新区天府大道南段2608号红星美凯龙生活美学中心一层",
+      "pro": "Wi-Fi,点唱机,店内参观",
+      "provinceName": "四川省",
+      "cityName": "成都市"
+    },
+    {
+      "rownum": 10,
+      "storeName": "青白江万达",
+      "addressDetail": "成都万达广场1025/1026B号商铺",
+      "pro": "Wi-Fi,生日餐会",
+      "provinceName": "四川省",
+      "cityName": "成都市"
+    }
+  ]
+}
