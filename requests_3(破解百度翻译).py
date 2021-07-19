@@ -20,7 +20,7 @@ data = {
 }
 
 # 请求发送
-response = requests.post(post_url, data=data, headers=headers)
+response = requests.post(post_url, data=data, headers=headers)#params用于get，data用于post
 
 # 获取响应数据：json()方法返回的是对象(obj)（如果确认响应数据是json类型的，才可以使用json()）
 dic_obj = response.json()  # 字典对象
