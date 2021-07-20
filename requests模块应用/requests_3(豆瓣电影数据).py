@@ -16,7 +16,7 @@ response=requests.get(url=url,params=param,headers=headers)
 
 list_data=response.json()
 
-with open("./douban.json","w",encoding="utf-8") as fp:
+with open("douban.json", "w", encoding="utf-8") as fp:
     json.dump(list_data, fp=fp, ensure_ascii=False)
 
 print("over!")
