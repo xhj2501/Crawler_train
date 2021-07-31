@@ -1,5 +1,6 @@
 from lxml import etree
 
+"""xpath路径可以网站直接复制"""
 parser = etree.HTMLParser(encoding='utf-8')  # 使etree不报错
 tree = etree.parse('cosmetic.html', parser=parser)  # 实例化etree对象，且将被解析的源码加载到了该对象中
 # r = tree.xpath('/html/body/div')  # '/’：表示的是从根节点开始定位，表示的是一个层级。
