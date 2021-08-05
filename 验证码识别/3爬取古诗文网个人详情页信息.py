@@ -12,10 +12,10 @@ session = requests.Session()
 
 # 验证码图片的捕获与识别
 url = "https://so.gushiwen.cn/user/login.aspx?from=http://so.gushiwen.cn/user/collect.aspx"
-page_text = requests.get(url=url, headers=headers).text
+page_text = session.get(url=url, headers=headers).text
 tree = etree.HTML(page_text, parser=parser)
 code_img_src = "https://so.gushiwen.cn" + tree.xpath('//*[@id="imgCode"]/@src')[0]
-code_img_data = requests.get(url=code_img_src, headers=headers).content
+code_img_data = session.get(url=code_img_src, headers=headers).content
 with open('./code.jpg', 'wb') as fp:
     fp.write(code_img_data)
 
