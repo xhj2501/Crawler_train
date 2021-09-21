@@ -6,6 +6,22 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class ImgsproPipeline(object):
-    def process_item(self, item, spider):
-        return item
+# class ImgsproPipeline(object):
+#     def process_item(self, item, spider):
+#         return item
+import scrapy
+from scrapy.pipelines.images import ImagesPipeline
+
+
+class imgsPipeLine(ImagesPipeline):
+    # 可以根据图片地址进行图片数据的请求
+    def get_media_requests(self, item, info):
+        yield scrapy.Request(item['src'])
+
+    # 指定图片存储的路径
+    def file_path(self, request, response=None, info=None):
+        imgName = request.url.split('/')[-1]
+        return imgName
+
+    def item_completed(self, results, item, info):
+        return item  # 返回给下一个即将被执行的管道类

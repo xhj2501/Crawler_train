@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/selenium模块的基本使用" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scrapy框架/qiubaiPro" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scrapy框架/findjobPro" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scrapy框架/dongmanPro" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scrapy框架/imgsPro" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
