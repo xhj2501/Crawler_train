@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/scrapy框架/findjobPro" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scrapy框架/dongmanPro" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scrapy框架/imgsPro" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scrapy框架/wangyiPro" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
