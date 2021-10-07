@@ -17,8 +17,9 @@ class WangyiSpider(scrapy.Spider):
 
     # 解析五大板块对应详情页的url
     def parse(self, response):
+        # 若运行报错，则根据网站情况更新下面的xpath地址格式
         li_list = response.xpath('//*[@id="index2016_wrap"]/div[1]/div[2]/div[2]/div[2]/div[2]/div/ul/li')
-        a_list = [2, 3, 5, 6,7]
+        a_list = [2, 3, 5, 6, 7]
         for index in a_list:
             model_url = li_list[index].xpath('./a/@href').extract_first()
             self.model_urls.append(model_url)
@@ -37,7 +38,6 @@ class WangyiSpider(scrapy.Spider):
 
             item = WangyiproItem()
             item['title'] = title
-
 
             # 对新闻详情页的url发起请求(使用请求传参)
             yield scrapy.Request(url=news_detail_url, callback=self.parse_detail, meta={'item': item})
